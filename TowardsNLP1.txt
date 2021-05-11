@@ -1,0 +1,8 @@
+In the sentence above, we can see that there are two can words, but both of them have different meanings. 
+Here the first can word is used for question formation. 
+The second can word at the end of the sentence is used to represent a container that holds food or liquid.
+Hence, from the examples above, 
+we can see that language processing is not deterministic the same language has the same interpretations, and something suitable to one person might not be suitable to another. 
+Therefore, Natural Language Processing NLP has a non-deterministic approach. 
+In other words, 
+Natural Language Processing can be used to create a new intelligent system that can understand how humans understand and interpret language in different situations.
