@@ -61,7 +61,7 @@ fDisk.plot(10)
 
 # LIST OF STOPWORDS:
 from nltk.corpus import stopwords
-"""
+
 stopwords = stopwords.words("english")
 print(stopwords)
 
@@ -80,10 +80,10 @@ print(fDisk.most_common(10))
 
 # plot the most common words on graph:
 fDisk.plot(10)
-"""
+
 # library to form wordcloud:
 from wordcloud import WordCloud
-"""
+
 #import matplotlib.pyplot as plt
 wordcloud = WordCloud().generate(text)
 # plot the wordcloud:
@@ -95,9 +95,9 @@ plt.show()
 
 # Stemming: "study", studying, studied, studies...
 # snowballstemmer support many languages
-"""
+
 from nltk.stem import SnowballStemmer
-"""
+
 # print languages supported
 print(SnowballStemmer.languages)
 
@@ -159,12 +159,12 @@ print(NEG)
 
 # to visualize:
 NEG.draw()
-"""
+
 
 # W   O   R   D   N   E   T 
 ## WordNet: to find maening of the words, synonyms, antonyms
 from nltk.corpus import wordnet
-"""
+
 for words in wordnet.synsets("Happy"):
     print(words)
 
@@ -204,9 +204,9 @@ print(word.hyponyms())
 print(word.lemmas()[0].name())
 
 
-"""
 
-"""
+
+
 # <<<<<<<    s y n o n y m s   and  a n t o n y m s >>>>>>>>>>>>
 synonmys = []
 antonyms = []
@@ -271,7 +271,7 @@ print("\n")
 # show the output
 print(X)
 
-"""
+
 
 
 
